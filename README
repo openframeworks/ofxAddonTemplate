@@ -2,18 +2,22 @@ This is an empty addon template for openframeworks.
 
 *Installation*
 
-$ cd /path/to/my/addons
-$ git clone git://github.com/benben/ofxAddonTemplate.git ofxMyNewCoolAddon
+  Download it here -> https://github.com/benben/ofxAddonTemplate/zipball/master
 
-Now you can add the folder to your favorite IDE and start developing.
+  or
+
+  $ cd /path/to/my/addons
+  $ git clone git://github.com/benben/ofxAddonTemplate.git ofxMyNewCoolAddon
+
+  Now you can add the folder to your favorite IDE and start developing.
 
 *Info*
 
-Since git does not keep track of empty directories, there are '.gitkeep' files in
-empty folders. You can safely remove it while developing your addon.
+  Since git does not keep track of empty directories, there are '.gitkeep' files in
+  empty folders. You can safely remove it while developing your addon.
 
-For more info on openframeworks
--> http://www.openframeworks.cc/
+  For more info on openframeworks
+  -> http://www.openframeworks.cc/
 
-For more info on addon development and this folder structure
--> http://ofxaddons.com/howto
+  For more info on addon development and this folder structure
+  -> http://ofxaddons.com/howto
