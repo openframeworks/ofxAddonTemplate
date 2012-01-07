@@ -1,16 +1,12 @@
 This is an empty addon template for openframeworks.
 
+Please head over to http://ofxaddons.com/howto  to see
+how this folder structure should be filled with your files!
+
 *Installation*
 
   Download it here -> https://github.com/benben/ofxAddonTemplate/zipball/master
   Unzip, rename and copy it to your addons folder
-
-  or
-
-  $ cd /path/to/my/addons
-  $ git clone git://github.com/benben/ofxAddonTemplate.git ofxMyNewCoolAddon
-
-  Now you can add the folder to your favorite IDE and start developing.
 
 *Info*
 
