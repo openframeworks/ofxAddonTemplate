@@ -16,12 +16,6 @@ CVS/
 
 */bin/emptyExample*
 
-# general generated data
-*.a
-*.o
-*.dylib
-*.d
-
 # XCode specific files
 build/
 *.mode1v3
