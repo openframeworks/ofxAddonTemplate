@@ -8,6 +8,7 @@ folder structure should be filled with your files!
 ## Installation
 
 Download it here -> https://github.com/benben/ofxAddonTemplate/zipball/master
+
 Unzip, rename and copy it to your addons folder
 
 ## Info
@@ -57,7 +58,9 @@ Folder structure for an addon looks like this:
 ## Links
 
 For more info on openframeworks
+
 -> http://www.openframeworks.cc/
 
 For a list of addons and more info on addon development
+
 -> http://ofxaddons.com/
