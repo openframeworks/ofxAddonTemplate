@@ -15,6 +15,7 @@ CVS/
 .svn/
 
 */bin/emptyExample*
+*.o
 
 # XCode specific files
 build/
