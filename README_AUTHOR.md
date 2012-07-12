@@ -4,6 +4,8 @@ Addon author instructions
 This file contains instructions and explanations for you.
 Bug reports are welcome, if you find errors in this template, or stuff doesn't work as expected.
 
+These instructions are in part building upon the info to be found at http://ofxaddons.com/howto, so it's probably best if you go there and take a look first.
+
 Addon name
 ----------
 By convention, addons for openFrameworks begin with `ofx`, and follow camel-case capitalization, e.g. `myAwesomeNewAddon`.
