@@ -52,6 +52,9 @@ Examples must have the string "example" in their folder name.
 
 Git repository
 --------------
+Probably the first thing you will want to do after downloading the template is rename the folder to your addon's name.
+Then enter the folder, and create a git repository, e.g. by saying `git init` on the command line.
+
 This template already contains a pre-made .gitignore file.
 This file contains ignore patterns to prevent improper/irrelevant files from being 
 committed to your git repository. 
