@@ -1,39 +1,73 @@
-*.bak
-*~
-*#
-*.swp
-*.layout
-*.depend
-*.mo
-*.pot
 
-# ignore Mac OS X finder metadata files
-.DS_Store
+# Some general ignore patterns
 
-# no CVS or SVN
-CVS/
+*/bin/*
+!*/bin/data/
+# for bin folder in root
+/bin/*
+!/bin/data/
+
+build/
+obj/
+*.o
+Debug*/
+Release*/
+*.mode*
+*.app/
+*.pyc
 .svn/
 
-*/bin/emptyExample*
-*.o
+# IDE-specific ignore patterns (e.g. user-specific files)
 
-# XCode specific files
-build/
-*.mode1v3
+#XCode
 *.pbxuser
+*.perspective
 *.perspectivev3
-xcuserdata/
+*.mode1v3
+*.mode2v3
+#XCode 4
+xcuserdata
+*.xcworkspace
 
-# Compiled source #
-###################
-*.com
-*.class
-*.dll
-*.exe
-*.so
+#Code::Blocks
+*.depend
+*.layout
 
-# Packages #
-############
+#Visual Studio
+*.sdf
+*.opensdf
+*.suo
+ipch/
+
+#Eclipse
+.metadata
+local.properties
+.externalToolBuilders
+
+# OS-specific ignore patterns
+
+#Linux
+*~
+# KDE
+.directory
+
+#OSX
+.DS_Store
+*.swp
+*~.nib
+# Thumbnails
+._*
+
+#Windows
+# Windows image file caches
+Thumbs.db
+# Folder config file
+Desktop.ini
+
+#Android
+.csettings
+
+# Packages
 # it's better to unpack these files and commit the raw source
 # git has its own built in compression methods
 *.7z
@@ -45,15 +79,7 @@ xcuserdata/
 *.tar
 *.zip
 
-# Logs and databases #
-######################
+# Logs and databases
 *.log
 *.sql
 *.sqlite
-
-# OS generated files #
-######################
-.DS_Store?
-ehthumbs.db
-Icon?
-Thumbs.db

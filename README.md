@@ -1,66 +1,22 @@
-# ofxAddonTemplate
+ofxAddonTemplate
+================
 
-This is an empty addon template for openframeworks.
+OpenFrameworks addon template for easier development of structurally correct addons.
 
-Please read the info section to see how this
-folder structure should be filled with your files!
+This template aids you as an addon author in creating an addon in a "proper" way. Doing this enables the openFrameworks community to easily use your addon, and having addons adhere to an established structure makes it easier for the openFrameworks developers to create features around contributed addons, like the addons index at ofxaddons.com.
 
-## Installation
+Download
+--------
+The template contains all you need to start developing your addon. Download the template using the Download button on the right side of the github page. Unzip, rename and copy it to your addons folder.
+**PLEASE DON'T FORK** the addon template repo if you plan on creating your own addon, this will lead to confusion on the Github inheritance/forking graph, and you will unnecessarily have this repository's history in your own git repo.
 
-Download it here -> https://github.com/benben/ofxAddonTemplate/zipball/master
+Further Steps
+-------------
+`README_AUTHOR.md` contains instructions and explanations for you.
+`README_DEPLOY.md` is filled with a template for an informative README file you might want to use with your addon.
 
-Unzip, rename and copy it to your addons folder
+Before announcing your addon to the world, you should remove this file (`README.md`) and the author instructions, and rename `README_DEPLOY.md` to `README.md`
 
-## Info
+This template reflects the help text found at http://ofxaddons.com/howto, and will be updated from time to time by the OF developers.
 
-Since git does not keep track of empty directories, there are '.gitkeep' files in
-empty folders. You can safely remove it while developing your addon.
-
-The following explanation is stolen from http://ofxaddons.com/howto !
-Head over to this side to get more info!
-
-Folder structure for an addon looks like this:
-
-    of_preRelease/
-      addons/
-        ofxMyAddon/
-          src/
-            ofxMyAddon.h
-            ofxMyAddon.cpp
-            ...
-          libs/
-            libwhatever/
-              src/
-                lib_implementation.h
-                lib_implementation.cpp
-                ...
-              includes/
-                libwhatever.h
-                ...
-              lib/
-                osx/
-                  static_libwhatever.a
-                linux/
-                  static_libwhatever.a
-                ... //other platforms
-          example-anExample/
-            src/
-              main.cpp
-              testApp.h
-              testApp.cpp
-              ... //other source
-            MyAddonExample.xcodeproj
-            ... //other project files for other platforms
-          bin/
-            data/
-              necessaryAsset.txt
-
-## Links
-
-For more info on openframeworks
-
--> http://www.openframeworks.cc/
-
-For a list of addons and more info on addon development
-
--> http://ofxaddons.com/
+Thanks for listening, and happy coding!
