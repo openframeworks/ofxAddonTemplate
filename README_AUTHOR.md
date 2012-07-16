@@ -49,6 +49,7 @@ The folder structure for an addon looks like this:
               necessaryAsset.txt
 
 Examples must have the string "example" in their folder name.
+The OS folder names in `libs/necessaryLib/lib/` must not be changed.
 
 Git repository
 --------------
