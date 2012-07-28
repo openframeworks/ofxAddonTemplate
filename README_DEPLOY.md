@@ -11,8 +11,7 @@ Describe what your addon is about
 
 Licence
 -------
-State which licence you offer your addon under. Maybe point to a LICENCE file which describes this in more detail (and may be mandatory for some licences).
-By the way, openFrameworks is distributed under the [MIT License](https://en.wikipedia.org/wiki/MIT_License).
+State which licence you offer your addon under. openFrameworks is distributed under the [MIT License](https://en.wikipedia.org/wiki/MIT_License), and you might consider using this for your repository. By default, `license.md` contains a copy of the MIT license to which you can add your name and the year.
 
 Installation
 ------------
