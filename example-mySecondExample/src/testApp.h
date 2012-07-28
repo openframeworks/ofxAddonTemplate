@@ -1,6 +1,7 @@
 #pragma once
 
 #include "ofMain.h"
+#include "ofxAddonTemplate.h"
 
 class testApp : public ofBaseApp{
 	public:
