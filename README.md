@@ -12,10 +12,10 @@ The template contains all you need to start developing your addon. Download the 
 
 Further Steps
 -------------
-`README_AUTHOR.md` contains instructions and explanations for you.
-`README_DEPLOY.md` is filled with a template for an informative README file you might want to use with your addon.
+`readme_author.md` contains instructions and explanations for you.
+`readme_deploy.md` is filled with a template for an informative README file you might want to use with your addon.
 
-Before announcing your addon to the world, you should remove this file (`README.md`) and the author instructions, and rename `README_DEPLOY.md` to `README.md`
+Before announcing your addon to the world, you should remove this file (`readme.md`) and the author instructions, and rename `readme_deploy.md` to `readme.md`
 
 This template reflects the help text found at http://ofxaddons.com/howto, and will be updated from time to time by the OF developers.
 
