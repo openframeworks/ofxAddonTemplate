@@ -15,7 +15,8 @@ Further Steps
 `readme_author.md` contains instructions and explanations for you.
 `readme_deploy.md` is filled with a template for an informative README file you might want to use with your addon.
 
-Before announcing your addon to the world, you should remove this file (`readme.md`) and the author instructions, and rename `readme_deploy.md` to `readme.md`
+Before announcing your addon to the world, you should remove this file (`readme.md`) and the author instructions, and rename `readme_deploy.md` to `README.md`.
+Also, if you have special instructions which people should see when submitting a pull request or open an issue in your addon repository, add a `CONTRIBUTING.md` file at the root of your repository. For more details, see https://github.com/blog/1184-contributing-guidelines
 
 This template reflects the help text found at http://ofxaddons.com/howto, and will be updated from time to time by the OF developers.
 
