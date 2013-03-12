@@ -44,6 +44,12 @@ ipch/
 local.properties
 .externalToolBuilders
 
+
+#codelite
+*.session
+*.tags
+*.workspace.*
+
 # OS-specific ignore patterns
 
 #Linux
@@ -83,8 +89,3 @@ Desktop.ini
 *.log
 *.sql
 *.sqlite
-
-#codelite
-*.session
-*.tags
-*.workspace.*
