@@ -44,6 +44,12 @@ ipch/
 local.properties
 .externalToolBuilders
 
+
+#codelite
+*.session
+*.tags
+*.workspace.*
+
 # OS-specific ignore patterns
 
 #Linux
