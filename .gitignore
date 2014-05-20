@@ -1,7 +1,11 @@
 # Some general ignore patterns
 
+docs/html
+docs/tagfile.xml
+
 */bin/*
 !*/bin/data/
+
 # for bin folder in root
 /bin/*
 !/bin/data/
