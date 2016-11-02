@@ -16,7 +16,13 @@ The folder structure for an addon looks like this:
 
     of_preRelease/
       addons/
+        addons_config.mk
         ofxMyAddon/
+          docs/
+              Doxyfile
+              ...
+          test/
+              ...
           src/
             ofxMyAddon.h
             ofxMyAddon.cpp
@@ -36,7 +42,7 @@ The folder structure for an addon looks like this:
                 linux/
                   static_libwhatever.a
                 ... //other platforms
-          example-anExample/
+          example_anExample/
             src/
               main.cpp
               testApp.h
@@ -50,13 +56,6 @@ The folder structure for an addon looks like this:
 
 Examples must have the string "example" in their folder name.
 The OS folder names in `libs/necessaryLib/lib/` must not be changed.
-
-libsorder.make
---------------
-The openFrameworks project generator uses a file called `libsorder.make` to specify the correct order for libraries, which is important on some platforms where linking order matters.
-In the folder structure you will find examples for this file where appropriate.
-
-*Previous versions of `libsorder.make`*: Note that the use of this file was changed from how it worked in Linux in earlier versions, where it was appending things to the names listed in this file. This is no longer the case, but some addons which have this file for linux might need to make sure they're up-to-date.
 
 Git repository
 --------------

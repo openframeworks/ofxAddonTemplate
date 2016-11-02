@@ -1,2 +1,0 @@
-static_necessaryLib1.a
-static_necessaryLib2.a
