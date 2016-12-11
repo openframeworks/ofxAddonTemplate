@@ -101,7 +101,7 @@ matrix:
 #          - libstdc++6
 
 
-# Emscripten, OF stable: Uncomment following lines to enable 
+# Emscripten, OF stable: Not supported yet
 #  - os: linux
 #    sudo: false
 #    env: TARGET="emscripten" OF_BRANCH="stable"
