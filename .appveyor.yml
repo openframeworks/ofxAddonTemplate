@@ -1,3 +1,24 @@
+# This file allows testing your addon in windows with both visual studio and msys2
+# using appveyor CI servers to use it you'll need to create an account in travis.org 
+# and enable your addon there. 
+#
+# If any extra install is needed to use the addon it can be included in the corresponding
+# install script in any of:
+#
+# scripts/ci/vs/install.sh
+# scripts/ci/vs/install.bat
+# scripts/ci/vs/install.ps
+#
+# for visual studio
+#
+# or
+#
+# scripts/ci/msys2/install.sh
+#
+# for msys2
+#
+
+
 version: 1.0.{build}
 os: Visual Studio 2015 RC
 
