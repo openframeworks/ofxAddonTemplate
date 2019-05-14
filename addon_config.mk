@@ -35,22 +35,34 @@ common:
 	# addon
 	# ADDON_CFLAGS =
 	
+	# any special flag that should be passed to the compiler for c++ files when 
+	# using this addon
+	# ADDON_CPPFLAGS =
+	
 	# any special flag that should be passed to the linker when using this
 	# addon, also used for system libraries with -lname
 	# ADDON_LDFLAGS =
-	
-	# linux only, any library that should be included in the project using
-	# pkg-config
-	# ADDON_PKG_CONFIG_LIBRARIES =
-	
-	# osx/iOS only, any framework that should be included in the project
-	# ADDON_FRAMEWORKS =
 	
 	# source files, these will be usually parsed from the file system looking
 	# in the src folders in libs and the root of the addon. if your addon needs
 	# to include files in different places or a different set of files per platform
 	# they can be specified here
 	# ADDON_SOURCES =
+	
+	# source files that will be included as C files explicitly
+	# ADDON_C_SOURCES = 
+	
+	# source files that will be included as header files explicitly
+	# ADDON_HEADER_SOURCES = 
+	
+	# source files that will be included as c++ files explicitly
+	# ADDON_CPP_SOURCES = 
+	
+	# source files that will be included as objective c files explicitly
+	# ADDON_OBJC_SOURCES = 
+	
+	# derines that will be passed to the compiler when including this addon
+	# ADDON_DEFINES
 	
 	# some addons need resources to be copied to the bin/data folder of the project
 	# specify here any files that need to be copied, you can use wildcards like * and ?
@@ -60,7 +72,6 @@ common:
 	# a specific platform
 	# ADDON_LIBS_EXCLUDE =
 	
-linux64:
 	# binary libraries, these will be usually parsed from the file system but some 
 	# libraries need to passed to the linker in a specific order/
 	# 
@@ -70,9 +81,24 @@ linux64:
 	# ADDON_LIBS += libs/opencv/lib/linuxarmv6l/libopencv_legacy.a
 	# ADDON_LIBS += libs/opencv/lib/linuxarmv6l/libopencv_calib3d.a
 	# ...
-linux:
-win_cb:
+	
+	
+linux64:
+	# linux only, any library that should be included in the project using
+	# pkg-config
+	# ADDON_PKG_CONFIG_LIBRARIES =
+vs:
+	# After compiling copy the following dynamic libraries to the executable directory
+	# only windows visual studio
+	# ADDON_DLLS_TO_COPY = 
+	
 linuxarmv6l:
 linuxarmv7l:
 android/armeabi:	
 android/armeabi-v7a:	
+osx:
+	# osx/iOS only, any framework that should be included in the project
+	# ADDON_FRAMEWORKS =
+ios:
+tvos:
+
